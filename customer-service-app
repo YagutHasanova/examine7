@@ -1186,3 +1186,6 @@ org.hibernate.HibernateException: identifier of an instance of com.example.exami
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
 	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
 
+2023-11-03T22:52:34.811+04:00  INFO 10680 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-03T22:52:34.817+04:00  INFO 10680 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-03T22:52:34.837+04:00  INFO 10680 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
